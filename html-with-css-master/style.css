@@ -1,0 +1,65 @@
+a {
+    color:  rgb(0, 0, 0) ;
+}
+
+/* header {
+    height: 1000px;
+} */
+
+
+h1 {
+    color:  blue;
+    /* -----font-properties-------- */
+    font-size: 70px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-variant: normal;
+    /* ----background-------- */
+    background-color: #d41010;
+    background-image: url(https://archziner.com/wp-content/uploads/2020/07/air-jordan-hoodie-worn-by-man-wearing-purge-mask-with-neon-lights-super-cool-wallpapers-holding-pink-smoke-bomb.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    height: 500px;
+    width: 1500px;
+
+}
+
+.para {
+    color: red;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    /* border: 5px solid black; */
+    border-radius: 10px ;
+    /* padding: 30px; */
+    /* padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 5px; */
+    /* padding: 20px 30px; */
+    /* padding: 10px 20px 30px; */
+    padding: 10px 20px 30px 40px;
+    margin: 10px 20px 30px 40px;
+}
+
+#bg-image {
+    /* ---background-shortcut-property------ */
+    background: #000 url(./assets/images/image.jpg) no-repeat center center fixed;
+}
+
+label {
+    color: royalblue;
+    
+}
+
+span {
+    font-style: italic;
+}
+
+footer {
+    background-image: url(./assets/images/image.jpg);
+    color: white;
+    height: 100px;
+}
