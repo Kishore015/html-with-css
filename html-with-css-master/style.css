@@ -1,28 +1,58 @@
-a {
-    color:  rgb(0, 0, 0) ;
-}
 
-/* header {
-    height: 1000px;
+/* html {
+    font-size: 1rem;
 } */
 
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow-x: hidden;
+   
+}
+
+a {
+    color:  rgb(0, 0, 0) ;
+    text-decoration: none;
+    /* font-size: 0.5rem; */
+}
+
+#section-1 div, #section-2 {
+    text-align: center;
+}
+
+header {
+    min-width: 50vw;
+}
+
+li {
+    list-style-type: lower-alpha;
+}
 
 h1 {
-    color:  blue;
+    color: black;
     /* -----font-properties-------- */
-    font-size: 70px;
+    /* 
+
+*/
+    /* font-size: 20em; */
     font-style: italic;
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     font-variant: normal;
     /* ----background-------- */
-    background-color: #d41010;
+    /* background-color: #d41010;
     background-image: url(https://archziner.com/wp-content/uploads/2020/07/air-jordan-hoodie-worn-by-man-wearing-purge-mask-with-neon-lights-super-cool-wallpapers-holding-pink-smoke-bomb.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     height: 500px;
-    width: 1500px;
+    width: 1500px; */
+/* ----text-properties---- */
+    text-align: center;
+
+    /* --display-properties--- */
+
+    /* display: inline; */
 
 }
 
@@ -46,7 +76,7 @@ h1 {
 
 #bg-image {
     /* ---background-shortcut-property------ */
-    background: #000 url(./assets/images/image.jpg) no-repeat center center fixed;
+    /* background: #000 url(./assets/images/image.jpg) no-repeat center center fixed; */
 }
 
 label {
@@ -63,3 +93,128 @@ footer {
     color: white;
     height: 100px;
 }
+
+
+#questions .flex {
+    display: flex;
+}
+
+.parent {
+    display: flex;
+}
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input[type="submit"] {
+    padding: 4px;
+    width: 160px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+label{
+    color: red;
+}
+
+#border-to-para {
+    border: 1px solid blgrack;
+    padding: 8px;
+}
+
+
+#flex {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-1 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid red;
+}
+
+
+#grid {
+    display: grid;
+}
+
+.grid-1 {
+    height: 30px;
+    width: 30px;
+    border: 2px solid red;
+}
+
+.grid-example {
+    display: grid;
+    grid-row: auto;
+}
+
+
+.grid {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .news10, .news9, .news8, .news1, .news2, .news3, .news4, .news5, .news6, .news7 {
+    border: 2px solid red;
+  }
+
+
+
+
+  #section-1 {
+      display: flex;
+     
+  }
+
+
+  #section-1 div {
+      border: 2px solid red;
+      height: 100px;
+      width: 100px;
+  }
+
+
+  #section-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    /* flex-direction: column; */
+   
+}
+
+
+#section-2 div {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+#section-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 100px;
+    margin: 20px 0px;
+    /* flex-direction: column; */
+   
+}
+
+
+#section-3 div {
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+
+
+
